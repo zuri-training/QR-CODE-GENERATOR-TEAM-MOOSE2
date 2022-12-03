@@ -27,24 +27,24 @@ Allow user save data and come back to it.
 
 ### Contributors
 #### Product Designers
-Ottah Blessing
-Theresa Ada-Okungbowa
-Nathan Destiny Ishaya
-Awandu Chidinma
-Ogunfeitimi Olaniyi Michael
+* Ottah Blessing
+* Theresa Ada-Okungbowa
+* Nathan Destiny Ishaya
+* Awandu Chidinma
+* Ogunfeitimi Olaniyi Michael
 
 
 #### Frontend developers (HTML, CSS, JS)
-Madu Johnpaul
-Njoku Naomi
-Udowa Matthew
-Dike David
-Ezekiel Okpukoro
+* Madu Johnpaul
+* Njoku Naomi
+* Udowa Matthew
+* Dike David
+* Ezekiel Okpukoro
 
 #### Backend developers (Python)
-Inyang Ukpong
+* Inyang Ukpong
 
 #### Full stack developers (Frontend and Python)
-Alaya Zainab
+* Alaya Zainab
 
 
