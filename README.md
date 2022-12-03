@@ -34,7 +34,7 @@ Awandu Chidinma
 Ogunfeitimi Olaniyi Michael
 
 
-#### Frontend developers (HTML. CSS. JS)
+#### Frontend developers (HTML, CSS, JS)
 Madu Johnpaul
 Njoku Naomi
 Udowa Matthew
