@@ -1,51 +1,277 @@
-{% extends "index.html" %}
-{% load static %}
-{% load i18n %}
-{% block head_title %}{% trans "Signup" %}{% endblock %}
-{% block extra_head %}
-<link rel="stylesheet" href="{% static 'css/signup.css' %}" />
-{% endblock %}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
-<html>
-  <body>
-    {% block content %}
-    <div id="logo">
-      <img src="{% static 'logo.png' %}" alt="logo" />
-    </div>
-    <section>
-      <!-- whole body -->
-      <div id="body">
-        <!-- create an account -->
-        <div id="welcome">
-            <h2>Create an account</h2>
-            <p class="login">It's free and only takes a few seconds</p>
-            </div>
-            <!-- form -->
-      <div id="form">
-          <form action="">
-              <label for="Full Name" id="email">Full Name</label><br>
-              <input type="text"  class="form" placeholder="Enter Your Name" required><br><br>
-              <label for="email" id="email">Email</label><br>
-              <input type="email" name="" class="form" placeholder="Enter Your Email" required><br><br>
-              <label for="password" id="email">Password</label><br>
-              <input type="password" name="" class="form" placeholder="Enter Your Password" required><br><br>
-              <label for="confirm password" id="email">Confirm Password</label><br>
-              <input type="password" name="" class="form" placeholder="Confirm Your Password" required>
-          </form>
-      </div>
-      <div>
-          <button class="signupbtn"><a href="{% static 'dashboard.html' %}"></a>Sign Up</button>
-      </div>
-      <p class="or">OR</p>
-      <!-- alternative to signup -->
-      <div class="but">
-          <button class="btn"><img class="icon" src="{% static 'image/google.png' %}" alt=""><p class="google">Continue with Google</p></button><br>
-          <button class="btn"><img class="icon" src="{% static 'image/facebook.png' %}" alt=""><p class="facebook"> Continue with Facebook</p></button><br>
-          <button class="btn"><img class="icon" src="{% static 'image/apple.png' %}" alt=""><p class="apple"> Continue with Apple</p></button>  
-              </div>
-              <p class="acct">Already have an account?<a href="{% static 'login.html' %}">Log In</a></p>
-        </div>
-  
-  {% endblock content%}
-  </body>
-</html>
+}
+
+#logo{
+position: absolute;
+width: 70px;
+height: 70px;
+left: 120px;
+top: 48px;
+}
+
+#body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    background-image: url(bckground1.jpg), url(bckground2.jpg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat,no-repeat;
+   
+    
+    
+}
+
+
+h2{
+width: 300px;
+height: 30px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+flex: none;
+order: 0;
+flex-grow: 0;
+color: #5390D9;
+padding-top: 188px;
+margin-left: 57px;
+/* padding-bottom:100px ; */
+}
+#welcome{
+    padding-top: -200px;
+    margin-top: -100px;
+    text-align: center;
+    
+    
+
+    
+    
+}
+   /* display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ 
+} */
+
+#email{
+width: 42px;
+height: 22px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+color: #017DCC;
+}
+
+.login{
+width: 400px;
+height: 27px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #000000; 
+padding-left: 20px;
+padding-top: 40px;
+align-items: center;
+}
+/* Inside auto layout */
+
+
+
+
+
+
+ .form{
+padding: 10px 24px;
+gap: 10px;
+
+width: 794px;
+height: 48px;
+
+background: rgba(246, 249, 255, 0.7);
+box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+/* Grey */
+
+border: 3px solid #D9D9D9;
+border-radius: 8px;
+/* Inside auto layout */
+
+
+ }
+
+#form{
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 20px;
+    margin-top: -25px;
+}
+
+
+
+.signupbtn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 794px;
+height: 48px;
+
+/* Blues - Primary/Blue 800 */
+
+background: #017DCC;
+border-radius: 8px;
+border-color:#017DCC;
+border-bottom: #017DCC;
+border-right:#017DCC ;
+box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+color: white;
+margin-top: 25px;
+margin-right: 30px;
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+cursor: pointer;
+}
+
+
+.or{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
+.btn{
+ display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 794px;
+height: 48px;
+
+/* Background Colour */
+
+background: #F6F9FF;
+/* Drop shadow */
+
+box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+border-bottom:#F6F9FF; 
+border-right: #F6F9FF;
+border-color: #F6F9FF;;
+border-radius: 12px;
+cursor: pointer;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.google{
+    width: 163px;
+height: 22px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+/* Primary Colour */
+
+color: #5390D9;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.facebook{
+    width: 179px;
+height: 22px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+/* Primary Colour */
+
+color: #5390D9;
+
+}
+
+.apple{
+    width: 154px;
+height: 22px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+/* Primary Colour */
+
+color: #5390D9;
+
+
+}
+
+.but{
+margin-right: 30px;
+}
+
+.acct{
+position: absolute;
+width: 227px;
+height: 22px;
+left: 560px;
+top: 750px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #252525;
+margin-top: 100px;
+
+}
