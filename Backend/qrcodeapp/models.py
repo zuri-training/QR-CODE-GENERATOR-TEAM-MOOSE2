@@ -1,7 +1,6 @@
 from django.db import models
 from datetime import date, datetime
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
-from django.db import models
 
 # from django.contrib.auth.models import User
 
@@ -45,6 +44,10 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['username']
+
+    # class Meta:
+    #     ordering = ['email']
+    #     verbose_name = "User"
 
     # Tell Django how to manage updates of this type of users
 
