@@ -60,8 +60,15 @@ A qr code generator that generates qr codes for links, files, contacts, informat
 
 
 ### Milestone 3: 
+* Final Design
+* Authentication Module
+* Actual Build
 
 ### Milestone 4: 
+* Testing
+* Hosting project on the server 
+* Link to the final product
+* Final Documentation
 
 
 
