@@ -56,6 +56,17 @@ p a {
     background-color: #017DCC;
 }
 
+.btn-10{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.btn-9{
+    color: #000;
+    
+}
+
 .container {
     margin-top: 50px;
 }
