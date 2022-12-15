@@ -118,7 +118,11 @@ border-radius: 8px;
     margin-top: -25px;
 }
 
-
+.btn-10{
+    
+    text-decoration: none;
+    color: #fff;
+}
 
 .signupbtn{
     display: flex;
