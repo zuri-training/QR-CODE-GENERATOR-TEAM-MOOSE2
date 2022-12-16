@@ -61,6 +61,16 @@ A qr code generator that generates qr codes for links, files, contacts, informat
 
 ### Milestone 3: 
 
+* Final Design
+* Actual Build 
+* Authentication module 
+    11th December, 2022
+
+ 
+
+
+
+
 ### Milestone 4: 
 
 
