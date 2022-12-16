@@ -133,6 +133,7 @@ https://docs.google.com/document/d/1QEpncbCM-_EffzpICdZPUEobot4DumYcT7sr5zCx5x0/
 * Udowa Matthew
 * Dike David
 * Ezekiel Okpukoro
+* Mercy James 
 
 #### Backend developers (Python)
 * Inyang Ukpong
