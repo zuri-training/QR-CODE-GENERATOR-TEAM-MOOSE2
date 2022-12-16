@@ -1,3 +1,5 @@
+### Hosted Link
+    * https://zuri-training.github.io/QR-CODE-GENERATOR-TEAM-MOOSE2/
 # QR-CODE-GENERATOR-
 A platform that allows users generate qr codes that specifically does something when scanned.
 # Project title
