@@ -66,13 +66,19 @@ A qr code generator that generates qr codes for links, files, contacts, informat
 * Authentication module 
     11th December, 2022
 
- 
-
 
 
 
 ### Milestone 4: 
 
+* Final Design project on server
+
+* Testing 
+
+* Link to final product 
+* Final documentation 
+
+    14th December, 2022
 
 
 ### Problem Statement
