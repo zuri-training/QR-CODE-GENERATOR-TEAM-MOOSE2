@@ -123,3 +123,5 @@ https://docs.google.com/document/d/1QEpncbCM-_EffzpICdZPUEobot4DumYcT7sr5zCx5x0/
 * Alaya Zainab
 
 
+### Live link 
+https://zuri-training.github.io/QR-CODE-GENERATOR-TEAM-MOOSE2/
